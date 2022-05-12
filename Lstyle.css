@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body{
+    background-image: url(MMM.jpg);
+    background-size: cover;
+}
+
+
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.login-container{
+    background-color: #77b978;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff
+}
+
+input{
+    display: block;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: left;
+    border: 2px solid #7a7a7a;
+    padding: 10px;
+}
+input:focus{
+    border: 2px solid #005234;
+}
+
+a{
+    color: #7a7a7a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.login{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: #e2b978;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.registro{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    margin-left: 110px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size:15px;
+}
