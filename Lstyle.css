@@ -39,7 +39,7 @@ textarea:focus, input:focus{
 
 form{
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: 600;
@@ -67,12 +67,9 @@ input{
     border: 2px solid #a5a4a4;
     padding: 10px;
 }
+
 input:focus{
     border: 2px solid #005234;
-}
-
-.login{
-    color: #ffffff;
 }
 
 a{
@@ -83,6 +80,7 @@ a{
 
 .login{
     text-align: center;
+    color: #ffffff;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 600;
@@ -96,5 +94,10 @@ a{
     font-family: 'Poppins', sans-serif;
     color: #000000;
     font-size: 15px;
-    margin-left: 110px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
 }
